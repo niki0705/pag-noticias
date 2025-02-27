@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+}
+
+
+/* Menú lateral */
+.menu-lateral {
+    width: 250px;
+    background-color: #0056b3;
+    color: white;
+    position: fixed;
+    height: 100vh;
+    padding-top: 20px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral ul li {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.menu-lateral ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+.menu-lateral ul li a:hover {
+    background-color: #007bff;
+}
+
+/* Lista de servicios */
+.menu-lateral ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.menu-lateral ul li {
+    padding: 8px 0;
+}
+
+/* Contenedor principal */
+.contenido {
+    margin-left: 250px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #e3f2fd;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sección de proyectos */
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.proyecto {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Formulario de contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
